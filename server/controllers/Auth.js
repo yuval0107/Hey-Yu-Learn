@@ -153,7 +153,7 @@ const sendotp = async (req, res) => {
 
     const checkUserPresent = await User.findOne({ email });
     if (checkUserPresent) {
-      return res.status(401).json({
+      return res.status(400).json({
         success: false,
         message: `User is Already Registered`,
       });
