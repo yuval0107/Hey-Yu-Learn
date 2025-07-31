@@ -21,6 +21,12 @@ const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:3000";
 // Connect to database
 database.connect();
 
+// Debug middleware to log all requests
+app.use((req, res, next) => {
+  console.log(`${new Date().toISOString()} - ${req.method} ${req.url}`);
+  next();
+});
+
 // Middlewares
 app.use(express.json());
 app.use(cookieParser());

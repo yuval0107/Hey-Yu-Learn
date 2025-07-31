@@ -34,11 +34,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git"
+    "url": "git+https://github.com/yuval0107/Hey-Yu-Learn.git"
   },
-  "author": "Pranay Gupta",
+  "author": "Yuval Bhayani",
   "bugs": {
-    "url": "https://github.com/thepranaygupta/react-tailwind-css-starter-pack/issues"
+    "url": "https://github.com/yuval0107/Hey-Yu-Learn/issues"
   },
   "scripts": {
     "start": "react-scripts start",
